@@ -1,7 +1,9 @@
 ClickToCopyTextfield
 ====================
 
-click textfield to copy to clipboard, note that this plugin requires jquery (or jrails).
+click textfield to copy to clipboard, note that this plugin requires jQuery (or jrails).
+
+This uses the Clipboard 2.0 jQuery plugin [http://plugins.jquery.com/project/clipboard]
 
 Example
 =======
