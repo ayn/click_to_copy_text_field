@@ -17,9 +17,7 @@ module ClickToCopyTextfield
   
   def click_to_copy(name, options, &block)
     fadeout_length = options.delete(:fadeout_length) || 600
-    fadeout_timer = options.delete(:fadeout_timer) || 1000
-    size = options[:size] || 30
-    
+    fadeout_timer = options.delete(:fadeout_timer) || 1000    
     %Q{
       <style>
         .click_to_copy_copied{display:none;}
