@@ -36,7 +36,7 @@ module ClickToCopyTextfield
             setTimeout("$('#click_to_copy_copied_#{name}').fadeOut(#{fadeout_length})", #{fadeout_timer});
             return false;
           });
-        }, { swfpath: "/jquery.clipboard.swf", debug: true } );
+        }, { swfpath: "/jquery.clipboard.swf", debug: false } );
       </script>
     }
   end
