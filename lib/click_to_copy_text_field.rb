@@ -1,12 +1,6 @@
 # ClickToCopyTextfield
 module ClickToCopyTextfield
   
-  def click_to_copy_text_field(object_name, method, options = {})
-    click_to_copy(object_name, options) do
-      text_field object_name, method, options
-    end
-  end
-  
   def click_to_copy_text_field_tag(name, value = nil, options = {})
     click_to_copy(name, options) do
       text_field_tag name, value, options
