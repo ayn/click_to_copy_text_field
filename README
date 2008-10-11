@@ -8,7 +8,10 @@ This uses the Clipboard 2.0 jQuery plugin [http://plugins.jquery.com/project/cli
 Example
 =======
 
-in your view, do something like this:
+in your view or layout, include the javascript:
+<%= javascript_include_tag 'jquery.clipboard.pack.js' %>
+
+and then do something like this:
 <%= click_to_copy_text_field_tag 'share-link-1', "http://some_link", :size => 10 %>
 
 Copyright (c) 2008 Andrew Ng, released under the MIT license
