@@ -5,6 +5,8 @@ click textfield to copy to clipboard, note that this plugin requires jQuery (or 
 
 This uses the Clipboard 2.0 jQuery plugin [http://plugins.jquery.com/project/clipboard]
 
+This probably won't work with Flash 10 as Adobe has changed permissions in Flash.
+
 Example
 =======
 
