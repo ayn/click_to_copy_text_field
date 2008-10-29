@@ -3,7 +3,7 @@ module ClickToCopyTextfield
   
   def click_to_copy_text_field_tag(name, value = nil, options = {})
     click_to_copy(name, options) do
-      text_field_tag name, value, options
+      text_field_tag name, value, { :readonly => true, :onclick => "this.select()" }.merge(options)
     end
   end
   
