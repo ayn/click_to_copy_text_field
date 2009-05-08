@@ -11,7 +11,7 @@ Example
 =======
 
 in your view or layout, include the javascript:
-<%= javascript_include_tag 'jquery.clipboard.pack.js' %>
+<%= javascript_include_tag 'jquery.clipboard.min.js' %>
 
 and then do something like this:
 <%= click_to_copy_text_field_tag 'share-link-1', "http://some_link", :size => 10 %>
